@@ -1,0 +1,6 @@
+framework module showTest {
+  umbrella header "showTest.h"
+
+  export *
+  module * { export * }
+}
