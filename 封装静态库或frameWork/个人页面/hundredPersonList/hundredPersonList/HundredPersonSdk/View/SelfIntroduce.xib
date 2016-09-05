@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="535"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gonggaolan" translatesAutoresizingMaskIntoConstraints="NO" id="ftR-cb-jaW">
+                    <rect key="frame" x="0.0" y="0.0" width="371" height="535"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lal-Gj-M1c">
+                    <rect key="frame" x="137" y="56" width="96" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddn-na-rj0">
+                    <rect key="frame" x="38" y="127" width="295" height="305"/>
+                    <string key="text">1.有兴趣了解更多可以登陆 简书查看() 
+2.QQ技术讨论群:365204530 (拒绝灌水和广告,欢迎喜欢 黑科技朋友)  3.如果想利用碎片时间学习 可以关注我的微信技术公众号  4.如果对源代码有兴趣的,可以 看我GIthub上分享的部分源代码  5.欢迎一起交流,视频制作以及 教学内容~fighting</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fPS-Lu-sk3">
+                    <rect key="frame" x="-28" y="117" width="262" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2bC-fh-Hnx">
+                    <rect key="frame" x="87" y="259" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ddn-na-rj0" firstAttribute="top" secondItem="lal-Gj-M1c" secondAttribute="bottom" constant="42" id="70q-7B-UOU"/>
+                <constraint firstAttribute="trailing" secondItem="ftR-cb-jaW" secondAttribute="trailing" id="AIG-cj-zid"/>
+                <constraint firstItem="ftR-cb-jaW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ejf-LX-wUX"/>
+                <constraint firstAttribute="trailingMargin" secondItem="ddn-na-rj0" secondAttribute="trailing" constant="30" id="GIM-Co-uyh"/>
+                <constraint firstItem="ddn-na-rj0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="30" id="JdZ-13-lAX"/>
+                <constraint firstItem="lal-Gj-M1c" firstAttribute="centerX" secondItem="ftR-cb-jaW" secondAttribute="centerX" id="SYb-0w-N0q"/>
+                <constraint firstItem="fPS-Lu-sk3" firstAttribute="top" secondItem="lal-Gj-M1c" secondAttribute="bottom" constant="32" id="dnl-W2-JEl"/>
+                <constraint firstItem="ddn-na-rj0" firstAttribute="centerX" secondItem="lal-Gj-M1c" secondAttribute="centerX" id="gK2-P2-ZP9"/>
+                <constraint firstItem="fPS-Lu-sk3" firstAttribute="centerX" secondItem="lal-Gj-M1c" secondAttribute="centerX" id="gbV-M1-UFU"/>
+                <constraint firstAttribute="bottom" secondItem="ftR-cb-jaW" secondAttribute="bottom" id="jbK-o8-J4u"/>
+                <constraint firstItem="ftR-cb-jaW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wR8-pg-h2Y"/>
+                <constraint firstItem="ftR-cb-jaW" firstAttribute="top" secondItem="lal-Gj-M1c" secondAttribute="bottom" constant="-85" id="y9T-Ua-80c"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="fPS-Lu-sk3"/>
+                    <exclude reference="2bC-fh-Hnx"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="110.5" y="208.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gonggaolan" width="226" height="285"/>
+    </resources>
+</document>
